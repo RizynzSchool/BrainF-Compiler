@@ -2,8 +2,8 @@
 BrainF Compiler V1 is a python made compiler for BrainF**k.
 
 # How to Use:
-~ write BrainF**k code in main.bf file
-~ cd BrainF-Compiler; bash run.bash : To Compile and Run main.bf
+~ write BrainF**k code in main.bf file <br />
+~ cd BrainF-Compiler; bash run.bash : To Compile and Run main.bf <br />
 
 # Future Updates:
 - Add input operator

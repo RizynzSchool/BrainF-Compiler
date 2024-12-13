@@ -2,8 +2,15 @@
 BrainF Compiler V1 is a python made compiler for BrainF**k.
 
 # Getting Started:
-Clone Repo: ```git clone --recursive https://github.com/RizynzSchool/BrainF-Compiler``` <br />
-Compile & Run: ```cd BrainF-Compiler; bash run.bash``` <br />
+Clone Repo: 
+#+begin_src sh
+  git clone --recursive https://github.com/RizynzSchool/BrainF-Compiler
+#+end_src <br />
+
+Compile & Run: 
+#+begin_src sh
+  cd BrainF-Compiler; bash run.bash
+#+end_src <br />
 
 # Future Updates:
 - Add input operator

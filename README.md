@@ -3,7 +3,7 @@ BrainF Compiler V1 is a python made compiler for BrainF**k.
 
 # Getting Started:
 Clone Repo: '''  ''' <br />
-Compile & Run: '''cd BrainF-Compiler; bash run.bash''' <br />
+Compile & Run: ```cd BrainF-Compiler; bash run.bash``` <br />
 
 # Future Updates:
 - Add input operator

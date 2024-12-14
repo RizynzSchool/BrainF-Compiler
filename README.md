@@ -1,5 +1,5 @@
-# BrainF-Compiler-V1
-BrainF Compiler V1 is a python made compiler for BrainF**k.
+# BrainF-Compiler
+BrainF Compiler is a python made compiler for BrainF**k.
 
 # Getting Started:
 Clone Repo: ```git clone --recursive https://github.com/RizynzSchool/BrainF-Compiler```<br />

@@ -4,6 +4,7 @@ BrainF Compiler is a python made compiler for BrainF**k.
 # Getting Started:
 Clone Repo: ```git clone --recursive https://github.com/RizynzSchool/BrainF-Compiler```<br />
 Compile & Run: ```cd BrainF-Compiler; bash run.bash```<br />
+Write to File: The "main.bf" file is located in the src file. **DO NOT MOVE THIS FILE**
 
 # Updates:
 ### BrainF-Compiler-V2

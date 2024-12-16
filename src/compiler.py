@@ -145,9 +145,8 @@ def compile(contents_arr):
 # func run
 try:
     files = find_file("/workspaces/codespaces-blank/src", ".bf")
-    print(files)
     os.system('clear')
-    file_contents = read_file(files)
+    file_contents = read_file(''.join(files))
     compile(file_contents)
 except Exception as e:
     os.system('clear')

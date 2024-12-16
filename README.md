@@ -11,6 +11,7 @@ Write to File: The "main.bf" file is located in the "src" folder. **DO NOT MOVE 
   - Added Input Operator<br />
   - Added Abliltiy to Customize .bf File Name<br />
   - Added Multiple File Detection & Selection<br />
+  - Improved Process Flow<br />
 
 # Future Updates:
 - More efficient writing method<br />
@@ -18,4 +19,3 @@ Write to File: The "main.bf" file is located in the "src" folder. **DO NOT MOVE 
 - Auto file location<br />
 - Text Highlights in .bf file<br />
 - Improved Error Detection
-- Improved Process Flow

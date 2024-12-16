@@ -144,7 +144,8 @@ def compile(contents_arr):
 
 # func run
 try:
-    files = find_file("/workspaces/codespaces-blank/src", ".bf")
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    files = find_file(current_directory, ".bf")
     os.system('clear')
     file_contents = read_file(''.join(files))
     compile(file_contents)

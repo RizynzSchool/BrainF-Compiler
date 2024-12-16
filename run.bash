@@ -8,6 +8,5 @@ g++ compiled.cpp
 
 ./a.out
 
-# delete cpp and compiled file after execution
+# delete cpp after execution
 rm compiled.cpp
-rm a.out 

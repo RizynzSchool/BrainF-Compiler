@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-cd /workspaces/codespaces-blank/src 
+cd ./src 
 
 # run compiler and compiled cpp
 python compiler.py 

@@ -1,4 +1,4 @@
-# Compile to C++
+# Compile to C++ to .out file
 import os
 from colorama import Fore, Style
 
@@ -119,7 +119,7 @@ def compile(contents_arr):
             looped = True
 
         elif (l == "LE"):
-                cpp_code += "\n\t};"
+                cpp_code += "\n\t}"
                 looped = False
 
         elif (l == "IN"):
@@ -136,16 +136,18 @@ def compile(contents_arr):
                     cpp_code += "\n\tcout << (char)cells[point];"
         
 
+    cpp_code += '\n\tif (point < 0) {\n\t\tcout << "\033[31mERROR: Negative Point";\n\t}'
     cpp_code += "\n\tcout << endl;\n\treturn 0;\n}"
 
     # write to cpp file
     with open(file_name, "w") as file:
         file.write(cpp_code)
 
-# func run
+# run
 try:
-    current_directory = os.path.dirname(os.path.abspath(__file__))
+    current_directory = os.path.dirname((os.path.abspath(__file__)))
     files = find_file(current_directory, ".bf")
+    print(''.join(files))
     os.system('clear')
     file_contents = read_file(''.join(files))
     compile(file_contents)
